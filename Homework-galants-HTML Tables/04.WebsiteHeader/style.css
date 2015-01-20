@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+.header-table {
+    background: #234465;
+    width: 100%;
+}
+.brand-td {
+    background: url("logo.png") no-repeat 30px 10px;
+    height: 85px;
+    width: 300px;
+}
+.brand-td .beta {
+    position: absolute;
+    top: 25px;
+    padding-left: 260px;
+}
+.right {
+    float: right;
+    padding-right: 10px;
+}
+a {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+.notifications{
+    color: #ffffff;
+    font-size: 20px;
+}
+.notificationsIcon img{
+    padding-left: 10px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+form {
+    border-radius: 6px;
+    height: 28px;
+    width: 220px;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+}
+.searchButton {
+    float: right;
+    width: 32px;
+    height: 30px;
+    vertical-align: top;
+    background: transparent;
+    border: 0;
+    border-left: 1px solid #d5d5d5;
+    border-collapse: collapse;
+    margin: 0;
+    background-image: url(searchButton.png);
+    background-position: 7px;
+    background-repeat: no-repeat;
+    outline: 0 none;
+    cursor: pointer;
+}
+.searchButton:hover, .searchButton:active {
+    background: #01c8f4;
+    border-radius: 5px;
+    background-image: url(searchButton.png);
+    background-position: 7px;
+    background-repeat: no-repeat;
+}
+input {
+    float: left;
+    border: 0px none;
+    vertical-align: top;
+    height: inherit;
+    width: 180px;
+    color: #367CAE;
+    background: none repeat scroll 0% 0% transparent;
+    font-size: 1.0rem;
+    display: inline-block;
+    outline: 0 none;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+
+ul li a:hover
+{
+    background: #617F8A;
+}
+li:hover ul
+{
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{
+    float: none;
+}
+
+li:hover a
+{
+    background: #617F8A;
+}
+
+li:hover li a:hover
+{
+    background: #95A9B1;
+}

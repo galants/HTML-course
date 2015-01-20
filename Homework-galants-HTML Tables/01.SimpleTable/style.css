@@ -1,0 +1,32 @@
+table {
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+th {
+    width: 310px;
+}
+.softuni-logo {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 160px;
+    content: url(softuni-logo.png);
+}
+.head, .article {
+    width: 200px;
+}
+
+.head {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.article {
+}
+
+.table-head {
+    text-align: left;
+    width: 150px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+

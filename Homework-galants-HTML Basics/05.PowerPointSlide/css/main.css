@@ -1,0 +1,57 @@
+body {
+    background-image: url('../images/background.png');
+}
+
+h1 {
+    color: #F3BE60;
+    margin-left: 20px;
+    font-family: 'Verdana';
+    font-style: normal;
+}
+
+ul {
+    list-style: square;
+    color: #F3BE60;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Verdana';
+    font-style: normal;
+}
+
+span {
+    color: #F3BE60;
+}
+
+li {
+    color: #F3BE60;
+}
+
+div {
+    background-color: #20201E;
+    margin-right: 50px;
+    margin-left: 30px;
+    border: solid #747065 1px;
+    padding: 0px;
+}
+
+div p {
+   font-family: 'Verdana';
+   font-style: normal;
+   margin: 5px;
+   color: #FBEEC9;
+}
+
+.inline {
+    margin-left: 20px;
+    color: #FBEEC9;
+}
+img#icon {
+    width: 209px;
+    height: 73px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}

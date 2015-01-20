@@ -1,0 +1,87 @@
+div, p, h1, h2, a, input {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(92, 92, 92);
+}
+div {
+    padding: 9px;
+}
+
+#main {
+    padding: 10px;
+    background: rgb(238, 238, 238);
+    width: 500px;
+    height: 325px;
+}
+h1, strong {
+    color: rgb(26, 60, 95);
+}
+h1 {
+    font-size: 19px;
+    padding-bottom: 11px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.left {
+    float: left;
+    width: 45%;
+    height: 75%;
+    margin-top: 10px;
+}
+.right {
+    background: rgb(35, 68, 101);
+    width: 45%;
+    height: 75%;
+    float: left;
+    margin-top: 10px;
+}
+.right h2, .right a, .right label {
+    color: white;
+}
+input {
+    width: 95%;
+    height: 25px;
+    margin: 5px 0;
+    padding: 5px;
+    color: rgb(92, 92, 92);
+}
+input[type='checkbox'] {
+    float: left;
+    width: 15px;
+}
+label {
+    float: left;
+    padding: 10px;
+    text-align: right;
+    font-size: 9px;
+}
+.right button {
+    float: right;
+    width: 100px;
+    height: 25px;
+    margin: 5px 0;
+    padding: 5px;
+    background: rgb(35, 68, 101);
+    color: white;
+    border: 1px solid rgb(250, 154, 2);
+}
+a {
+    margin: 5px 0;
+    padding: 5px;
+    clear: right;
+    float: right;
+}
+.left button {
+    float: right;
+    width: 120px;
+    height: 25px;
+    margin: 5px 0;
+    padding: 5px;
+    background: rgb(238, 238, 238);
+    color: rgb(26, 60, 95);
+    border: 1px solid rgb(26, 60, 95);
+}

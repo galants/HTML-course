@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, Thoma, sans-serif;
+    font-size: 16px;
+}
+article {
+    display: inline-block;
+    width: 160px;
+    height: 400px;
+}
+.move-img{
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 186px;
+    padding: 0 14px;
+    margin: auto 0;
+}
+.move-img img{
+    width: 130px;
+}
+.move-img:hover{
+    background: #820000;
+}
+.move-name{
+    height: 40px;
+    margin: 4px 0;
+}
+.div-more-info {
+    margin-bottom: 10px;
+}
+.genre {
+    color: #444444;
+    font-size: 12px;
+    text-decoration: none;
+}
+.more-info {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.more-info:hover {
+    background: #7F8083;
+}
+.move-name a:hover{
+    color: #780000;
+}

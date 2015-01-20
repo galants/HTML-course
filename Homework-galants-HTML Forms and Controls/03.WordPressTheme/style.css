@@ -1,0 +1,9 @@
+div {
+    margin: 5px 0;
+}
+.file-upload>input {
+    vertical-align: middle ;
+}
+input {
+    vertical-align: bottom;
+}

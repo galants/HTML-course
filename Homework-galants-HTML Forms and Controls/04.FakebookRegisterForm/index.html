@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section>
+        <h1>fakebook</h1>
+        <h2>registration</h2>
+        <h3>It is safe and it will always be!</h3>
+        <div>
+            <div class="left">
+                <fieldset>
+                    <legend>None-Important Information</legend>
+                    <input type="text" value="First Name"/>
+                    <input type="text" value="Last Name"/>
+                    <input type="email" value="Your Email"/>
+                    <input type="tel" value="Phone Number"/>
+                    <input type="password" value="Your Password"/>
+                    <input type="url" value="Website"/>
+                    <label for="birthday">Birthday</label>
+                    <input type="datetime" name="birthday" id="birthday"/>
+                    <input type="radio" name="sex" id="female"/>
+                    <label for="female">Female</label>
+                    <input type="radio" name="sex" id="male"/>
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" id="other"/>
+                    <label for="other">Other</label>
+                </fieldset>
+                <button>Clear Form</button>
+            </div>
+            <div class="right">
+                <fieldset>
+                    <legend>Important Information *required</legend>
+                    <input type="text" value="Country" required="true"/>
+                    <datalist>
+                        <option value="BG"></option>
+                        <option value="GBR"></option>
+                        <option value="I"></option>
+                        <option value="D"></option>
+                    </datalist>
+                    <input type="text" value="Village" required="true"/>
+                    <input type="text" value="District" required="true"/>
+                    <input type="text" value="Street" required="true"/>
+                    <input type="text" value="Nr" class="small" required="true"/>
+                    <input type="text" value="Floor" class="small" required="true"/>
+                    <input type="text" value="Ap Nr" class="small" required="true"/>
+                    <label for="color">Door color</label>
+                    <input type="color" value="#FF80FF" id="color"/>
+                    <input type="text" value="Water Meter Nr." required="true"/>
+                    <input type="text" value="Aunt Panties Size"required="true"/>
+                    <datalist>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </datalist>
+                    <label for="text-area">More Personal Information</label>
+                    <textarea name="text-area" id="text-area" required="true">Give Us More Information!!!
+                    </textarea>
+                </fieldset>
+                <button>Register</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

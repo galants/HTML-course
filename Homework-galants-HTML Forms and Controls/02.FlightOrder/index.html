@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="main">
+    <h2>Flight order</h2>
+
+    <form action="#">
+        <div>
+            <label for="from-city">from</label>
+            <label for="to-city">To</label>
+
+            <input list="from-city" name="from-city" value="enter a city" title="enter a city" />
+            <datalist id="from-city">
+                <option value="Sofiq">
+                <option value="Milano">
+                <option value="London">
+                <option value="Viena">
+                <option value="Barcelona">
+            </datalist>
+            <input list="to-city" name="to-city" value="enter a city" title="enter a city" />
+            <datalist id="to-city">
+                <option value="Sofiq">
+                <option value="Milano">
+                <option value="London">
+                <option value="Viena">
+                <option value="Barcelona">
+            </datalist>
+        </div>
+        <div class="right">
+            <input type="checkbox" name="is-prefer-directs" id="is-prefer-directs"/>
+            <label for="is-prefer-directs">Prefer directs</label>
+        </div>
+        <div>
+            <label for="departure-date">Departure date</label>
+            <label for="departure-time-interval-start">Time Interval</label>
+
+            <input type="date" name="departure-date" id="departure-date"/>
+            <input type="time" name="departure-time-interval-start" id="departure-time-interval-start"/>
+            <input type="time" name="departure-time-interval-end" id="departure-time-interval-end"/>
+        </div>
+        <div>
+            <label for="return-date">Return date</label>
+            <label for="departure-time-interval-end">Time Interval</label>
+            <input type="date" name="return-date" id="return-date"/>
+
+            <input type="time" name="return-time-interval-start" id="return-time-interval-start"/>
+            <input type="time" name="return-time-interval-end" id="return-time-interval-end"/>
+        </div>
+        <div>
+            <label for="up-12" class="child-age">12+</label>
+            <label for="between-2-12" class="child-age">2-12</label>
+            <label for="to-2" class="child-age">0-2</label>
+            <label for="choose-class">Choose class</label>
+
+            <input type="number" name="up-12" id="up-12"/>
+            <input type="number" name="between-2-12" id="between-2-12"/>
+            <input type="number" name="to-2" id="to-2"/>
+            <input list="choose-class" />
+            <datalist id="choose-class">
+                <option value="Economy" selected></option>
+                <option value="Poor"></option>
+                <option value="VIP"></option>
+            </datalist>
+        </div>
+        <div>
+            <button>Search</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

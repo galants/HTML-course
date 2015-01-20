@@ -1,0 +1,136 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+/*Everything now is null*/
+h1 {
+    font-family: Latha, Cambria, Arial, sans-serif;
+    font-size: 40pt;
+    color: #233C57;
+    margin: 20pt;
+}
+h2 {
+    text-align: left;
+    font-size: 20pt;
+    color: #233C57;
+    padding: 5pt;
+    padding-left: 10pt;
+}
+h3 {
+    text-align: left;
+    font-size: 12pt;
+    color: #3c5a79;
+    padding: 5pt;
+    padding-left: 10pt;
+    padding-top: 0;
+}
+label {
+    cursor: pointer;
+}
+img {
+    width: 75%;
+    height: 80pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10pt;
+}
+#laptops {
+    width: 65%;
+    height: 70%;
+    float: left;
+}
+.frame {
+    margin: 2px;
+    width: 32%;
+    height: 293px;
+    border-radius: 10pt 10pt 10pt 10pt;
+    display: inline-block;
+    border: solid #DDF0FA 2px;
+}
+.frame:hover {
+    border: solid #ff0000 2px;
+}
+.button {
+    margin-left: 17.3%;
+    width: 61%;
+    height: 40pt;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20pt;
+    padding: 10pt;
+    border-top-left-radius: 15pt 25pt;
+    cursor: pointer;
+}
+.button-inside {
+    margin-left: 17.3%;
+    width: 61%;
+    height: 40pt;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 20pt;
+    padding: 10pt;
+    border-top-left-radius: 15pt 25pt;
+    cursor: pointer;
+    color: #A7D3F2;
+    background-color: #2C425A;
+}
+aside {
+    float: right;
+    width: 30%;
+    height: 100%;
+    margin-left: 5pt;
+    margin-right: 20pt;
+    padding: 10pt;
+    background-color: #DDF0FA;
+    font-size: 12pt;
+}
+.head {
+    text-align: center;
+    padding: 3pt;
+    font-size: 20pt;
+}
+.left-indicator {
+    float: left;
+    font-size: 20pt;
+    margin-left: 25pt;
+    margin: 10pt;
+}
+.right-indicator {
+    float: right;
+    font-size: 20pt;
+    margin-righ: 25pt;
+    margin: 10pt;
+}
+.slider {
+    width: 100%;
+}
+form {
+    background-color: #DDF0FA;
+}

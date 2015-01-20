@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="main">
+    <h1>Enter the system</h1>
+    <p>It is necessary to login in Your account in order to sing in for a course.</p>
+    <div class="left">
+        <h2>Are you new? <strong>Register</strong></h2>
+        <form action="#" method="post">
+            <input type="text" name="user-name-register" id="user-name-register" required="{4}" placeholder="User name"/>
+            <input type="email" name="email-register" id="email-register" required="true" placeholder="Email"/>
+            <input type="password" name="confirm-password-register" id="password-register" required="true" pattern="{6}"  placeholder="Password"/>
+            <input type="password" name="confirm-password-register" id="confirm-password-register" required="true" pattern="{6}" placeholder="Confirm password"/>
+            <button>Register</button>
+        </form>
+    </div>
+    <div class="right">
+        <h2>Already a student? Login</h2>
+        <form action="#" method="post">
+            <input type="text" name="username-login" id="username-login" required="true" placeholder="User name" />
+            <input type="password" name="password-login" id="password-login" required="true" placeholder="Password" />
+            <input type="checkbox" name="check-remember-login-date" id="check-remember-login-data"/>
+            <label for="check-remember-login-data">Remember me?</label>
+            <button>Login</button>
+            <a href="#">Forgot Password</a>
+        </form>
+    </div>
+</div>
+</body>
+</html>

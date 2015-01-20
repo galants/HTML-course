@@ -1,0 +1,64 @@
+table {
+    font-family: "calibri", Garamond, 'Comic Sans';
+    font-size: 18px;
+}
+td{
+    padding: 5px 5px 5px 5px;
+}
+thead tr {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+td {
+    width: 75px;
+}
+tr{
+    height: 75px;
+}
+tr.second{
+    vertical-align: top;
+}
+td.google{
+    text-align: left;
+}
+td.github{
+    text-align: right;
+}
+td.fb{
+    text-align: center;
+    vertical-align: top;
+}
+td.gmail{
+    text-align: left;
+    vertical-align: middle;
+}
+td.youtube{
+    text-align: center;
+    vertical-align: bottom;
+}
+td.number{
+    text-align: left;
+    vertical-align: middle;
+}
+td.food{
+    text-align: right;
+    vertical-align: bottom;
+}
+td.game{
+    text-align: left;
+    vertical-align: bottom;
+}
+.inner-table tr{
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.fifth{
+    vertical-align: middle;
+}
+td.beer {
+    text-align: right;
+    font-size: 20px;
+}
